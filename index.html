@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <script src="jquery-3.5.1.min.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Zenith's forn validator</h1>
+        <form action="">
+            <div class="username">
+                <div class="first">
+                    <input placeholder="First Name" id="firstname" class="input1" type="name" class="input1">
+                    <span id="firsname_error"></span>
+                </div>
+                <div class="second">
+                    <input placeholder="Last Name" id="lastname" class="input2" type="text" class="input">
+                    <span id="wrong_name"></span>
+                </div>
+                <div class="email">
+                    <input placeholder="Email Address" id="email" class="input3" type="email" class="input">
+                    <span id="email_error"></span>
+                </div>
+                <div class="phone">
+                    <input placeholder="Phone" id="phone" class="input4" type="tel" class="input">
+                    <span id="phone_error"></span>
+                </div>
+            </div>
+
+            <div class="password">
+                <div class="first-password">
+                    <input placeholder="Password" class="input5"  id="first" type="password">
+                    <span id="password_error"></span>
+                </div>
+                <div class="second-password">
+                    <input placeholder="Confirm Password" class="input6" id="second" type="password">
+                    <span id="confirm_password_error"></span>
+                </div>
+            </div>
+            <!-- <div class="loading loading--full-height"></div> -->
+        </form>
+    </div>
+
+<script src="jquery.js"></script>
+<script  src="script.js"></script>
+</body>
+</html>

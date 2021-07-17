@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    /* background: url(zed.jpg); */
+    background: #123456;
+}
+
+form{
+    /* border: 3px solid red; */
+    padding: 50px 50px 50px 50px;
+    background: aqua;
+    border-radius: 20px;
+    /* background: white; */
+}
+
+h1{
+    color: #188fff;
+}
+input{
+    border: none;
+    background: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5,
+.input6{
+    border-bottom: 1px solid black; 
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+
+}
+
+.loading--full-height {
+  align-items: center;
+  height: 100%;
+}
+
+.loading::after {
+  content: "";
+  width: 50px;
+  height: 50px;
+  border: 10px solid ;
+  border-top-color: whitesmoke;
+  border-radius: 50%;
+  transform: rotate(0.16turn);
+  animation: loading 1s ease infinite;
+}
+
+@keyframes loading {
+  /* Safari support */
+  from {
+    transform: rotate(0turn);
+  }
+  
+  to {
+    transform: rotate(1turn);
+  }
+}

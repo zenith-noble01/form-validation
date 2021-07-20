@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: monospace;
     box-sizing: border-box;
 }
 
@@ -15,19 +16,26 @@
     justify-content: center;
     display: flex;
     /* background: url(zed.jpg); */
-    background: #123456;
+    background: #373737;
 }
 
 form{
     /* border: 3px solid red; */
     padding: 50px 50px 50px 50px;
-    background: aqua;
+    background: #292929;
+    width: 600px;
     border-radius: 20px;
     /* background: white; */
+}
+span{
+  font-family: monospace;
+  font-size: 17px;
+  font-style: italic;
 }
 
 h1{
     color: #188fff;
+
 }
 input{
     border: none;

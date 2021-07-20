@@ -70,11 +70,7 @@
 
     //validation of second password
     $('#second').keyup(function(){
-        if(validationOfConfirmPass()){
-             $('#confirm_password_error').text('your passwords do not match please check them againmmm')
-            $('#confirm_password_error').css('color', '#ff0000')
-              $('.input6').css('border-bottom', '1px solid #ff0000')
-        }else{
+       
         if($('#first').val() === $('#second').val()){
             $('#confirm_password_error').text('Passwords Match')
             $('#confirm_password_error').css('color', '#00ff00')
@@ -85,7 +81,7 @@
             $('#confirm_password_error').css('color', '#ff0000')
               $('.input6').css('border-bottom', '1px solid #ff0000')
         }}
-    })
+   )
 
 
 
